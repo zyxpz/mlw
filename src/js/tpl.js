@@ -1,0 +1,1 @@
+export headerTpl from '../tpl/header.atpl';

@@ -1,0 +1,23 @@
+{
+  "name": "mlw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "entry": {
+    "index": "./src/js/index.js"
+  },
+  "scripts": {
+    "dev": "mido dev -p 9001",
+    "build": "mido build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mido-construct": "^1.1.3-beta10"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "mido-h5-cp": "^1.0.5",
+    "mido-less-general": "^1.0.4"
+  }
+}
