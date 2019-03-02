@@ -19,7 +19,7 @@ Thumbs.db
 .build
 node_modules
 _site
-# /dist
+/dist
 _package
 sea-modules
 spm_modules
