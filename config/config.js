@@ -1,12 +1,12 @@
 exports.babel = {
-  plugins: [
-    [
+	plugins: [
+		[
 			"import",
-				{
-					"libraryName": "mido-h5-cp",
-					"libraryDirectory": "lib/web",
-					"camel2DashComponentName": false
-				}
+			{
+				"libraryName": "mido-h5-cp",
+				"libraryDirectory": "lib/web",
+				"camel2DashComponentName": false
+			}
 		]
-  ]
+	]
 }

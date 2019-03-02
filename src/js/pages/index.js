@@ -34,13 +34,15 @@ const mainRender = () => {
   const {
     main: {
       download = {}
-    }
+    },
+    list = []
   } = mlwData;
   const {
     url = ''
   } = download;
   return mainTpl({
-    url: url
+    url,
+    list,
   });
 }
 
@@ -49,11 +51,11 @@ const init = () => {
 
   render($wrap);
 
-  // const rollerSlide = new RollerSlide({
-  //   wrap: $wrap
-  // });
+  const rollerSlide = new RollerSlide({
+    wrap: $wrap
+  });
 
-  // rollerSlide.init();
+  rollerSlide.init();
 };
 
 init();

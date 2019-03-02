@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "entry": {
-    "index": "./src/js/index.js"
+    "index": "./src/js/index.js",
+    "image": "./src/js/img.js"
   },
   "scripts": {
     "dev": "mido dev -p 9001",
@@ -13,11 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mido-construct": "^1.1.3-beta10"
+    "mido-construct": "^1.1.4"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.11.0",
-    "mido-h5-cp": "^1.0.5",
+    "mido-h5-cp": "^1.0.7",
     "mido-less-general": "^1.0.4"
   }
 }
