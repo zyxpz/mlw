@@ -1,0 +1,11 @@
+<div class="mlw-nav">
+  <div class="mlw-nav-logo">
+    <p class="mlw-logo-image" <% if (logo.icon) {%> style="background-image: url( <%=icon%> )" <% } %>></p>
+    <span class="mlw-logo-text"><%=logo.logoName%></span>
+  </div>
+  <div class="mlw-nav-content">
+    <% list && list.forEach(function (item) { %>
+    <a href="<%=item.link%>"><%=item.text%></a>
+    <%})%>
+  </div>
+</div>

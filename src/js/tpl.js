@@ -1,1 +1,3 @@
-export headerTpl from '../tpl/header.atpl';
+export navTpl from '../tpl/nav.atpl';
+
+export mainTpl from '../tpl/main.atpl';

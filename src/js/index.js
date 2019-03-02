@@ -1,2 +1,2 @@
-import '../pages/index';
+import './pages/index';
 import '../index.html';

@@ -1,0 +1,17 @@
+<div class="mlw-main-wrap">
+  <div class="mlw-nav-wrap J-mlw-nav-wrap"></div>
+  <div class="mlw-main-logo"></div>
+  <div class="mlw-main-text"></div>
+  <div class="mlw-main-introduction">
+    <p class="line line-left"></p>
+    <p class="text">猫乐窝APP 1.0.0正式版</p>
+    <p class="line line-right"></p>
+  </div>
+  <div class="mlw-main-text-two">更懂您的家具生活服务专家</div>
+  <a class="mlw-main-download" href="<%=url%>">
+    <p class="icon"></p>
+    <p class="text">手机版本下载</p>
+  </a>
+</div>
+
+<div class="mlw-introduction-list"></div>
